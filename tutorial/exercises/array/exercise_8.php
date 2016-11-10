@@ -7,6 +7,8 @@ c) descending order sorting by Value <br>
 d) descending order sorting by Key <br>
 
 <p><b>Answer:</b></p>
+
+
 <?php 
 $arrVal = array(
     "Sophia2"=>"32",
@@ -16,7 +18,9 @@ $arrVal = array(
     "Sophia6"=>"317",
     "Sophia7"=>"31",
     "Sophia"=>"31",
-    "Jacob"=>"41","William"=>"39","Ramesh"=>"40");
+    "Jacob"=>"41",
+    "William"=>"39",
+    "Ramesh"=>"40");
 
 /**
  * if 0 la equal
@@ -26,12 +30,16 @@ $arrVal = array(
  * @param  [type] $value [description]
  * @return [type]        [description]
  */
+
+
+// Type A
+
 function ascSortValue($a,$b)
 {
-    if($a%2==0){
+    /*if ($a%2==0) {
         if($b%2==0){
             return ($a < $b) ? -1 : 1;
-        }else{
+        } else {
             return 1;
         }
     }else{
@@ -40,11 +48,51 @@ function ascSortValue($a,$b)
         }else{
             return ($a < $b) ? -1 : 1;;
         }
+    }*/
+    if ($a == $b) {
+        return 0;
     }
+return ($a < $b) ? -1 : 1;
 }
 uasort($arrVal,"ascSortValue");
+echo "a) ascending order sort by value <br>";
+foreach ($arrVal as $key => $value) {
+    echo "Key=" . $key . ", Value=" . $value ."<br>";
+}
+
+
+// Type B
+
+echo "<p></p>";
+echo "b) ascending order sort by Key <br>";
+ksort($arrVal);
+foreach ($arrVal as $key => $value) {
+    echo "Key=" . $key . ", Value=" . $value ."<br>";
+}
+
+// Type C
+
+echo "<p></p>";
+echo "c) descending order sort by Value <br>";
+function descSortKey ($a, $b){
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? 1 : -1;
+}
+
+uasort($arrVal, "descSortKey");
 
 foreach ($arrVal as $key => $value) {
     echo "Key=" . $key . ", Value=" . $value ."<br>";
 }
+
+// Type D
+echo "<p></p>";
+echo "d) descending order sort by Key <br>";
+krsort($arrVal);
+foreach ($arrVal as $key => $value) {
+    echo "Key=" . $key . ", Value=" . $value ."<br>";
+}
 ?>
+
