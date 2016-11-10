@@ -28,19 +28,28 @@ $arrVal = array(
  */
 function ascSortValue($a,$b)
 {
-    if($a%2==0){
-        if($b%2==0){
-            return ($a < $b) ? -1 : 1;
-        }else{
-            return 1;
-        }
-    }else{
-        if($b%2==0){
-            return -1;
-        }else{
-            return ($a < $b) ? -1 : 1;;
-        }
+    // ----------------------- level is upper -----------------------
+
+    // if($a%2==0){
+    //     if($b%2==0){
+    //         return ($a < $b) ? -1 : 1;
+    //     }else{
+    //         return 1;
+    //     }
+    // }else{
+    //     if($b%2==0){
+    //         return -1;
+    //     }else{
+    //         return ($a < $b) ? -1 : 1;;
+    //     }
+    // }
+
+//  ------------------- level is lower ------------------------
+    if ($a == $b) {
+        return 0;
     }
+
+    return ($a < $b) ? -1 : 1;
 }
 uasort($arrVal,"ascSortValue");
 
