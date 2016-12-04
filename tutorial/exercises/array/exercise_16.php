@@ -10,3 +10,5 @@ $arrayName = array('10' => "a", '5' => '96', '55a' => '12a');
 $max = max(array_keys($arrayName));
 echo "Max is $max";
 ?>
+
+
