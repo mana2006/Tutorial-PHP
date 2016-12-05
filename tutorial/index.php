@@ -119,7 +119,7 @@
                     <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_21.php" >Excercise 21</a>
                 </li>
                 <li>
-                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_2.php" >Excercise 22</a>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_22.php" >Excercise 22</a>
                 </li>
                 <li>
                     <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_23.php" >Excercise 23</a>
@@ -145,6 +145,96 @@
                 <li>
                     <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_30.php" >Excercise 30</a>
                 </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_31.php" >Excercise 31</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_32.php" >Excercise 32</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_33.php" >Excercise 33</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_34.php" >Excercise 34</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_35.php" >Excercise 35</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_36.php" >Excercise 36</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_37.php" >Excercise 37</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_38.php" >Excercise 38</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_39.php" >Excercise 39</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_40.php" >Excercise 40</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_41.php" >Excercise 41</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_42.php" >Excercise 42</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_43.php" >Excercise 43</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_44.php" >Excercise 44</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_45.php" >Excercise 45</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_46.php" >Excercise 46</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_47.php" >Excercise 47</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_48.php" >Excercise 48</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_49.php" >Excercise 49</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_50.php" >Excercise 50</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_51.php" >Excercise 51</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_52.php" >Excercise 52</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_53.php" >Excercise 53</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_54.php" >Excercise 54</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_55.php" >Excercise 55</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_56.php" >Excercise 56</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_57.php" >Excercise 57</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_58.php" >Excercise 58</a>
+                </li>
+                <li>
+                    <a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];?>exercises/array/exercise_59.php" >Excercise 59</a>
+                </li>
+
+
+
             </ol>
     </ul>
 </body>
