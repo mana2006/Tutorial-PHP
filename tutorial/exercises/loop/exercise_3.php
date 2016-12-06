@@ -18,8 +18,10 @@
  */
 
 for ($i = 0; $i <= 5; $i++) {
-    echo "*<br>";
-    for ($j = 0; $j <= 5; $j ++) {
+    $x = 0;
+    while ($x <= $i) {
         echo "*";
+        $x++;
     }
+    echo "<br>";
 }
