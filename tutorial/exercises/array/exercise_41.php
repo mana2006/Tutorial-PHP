@@ -21,7 +21,7 @@ Array<br>
  * Date: 02/12/2016
  * Time: 23:08
  */
-``
+
 $test_array = array();
 $test_array[1]    = 'xyz@example.com';
 $test_array[2]    = 'dse@example.com';
