@@ -15,21 +15,16 @@ Use table width="270px" and take 30px as cell height and width.<br>
  */
 
 $table = "<table width='270px' border='1'>";
-for ($i = 1; $i <= 8; $i++) {
+$flag = true;
+$color = [
+    true => 'white',
+    false => 'black'
+];
+for ($i = 1; $i <= 9; $i++) {
     $table .= "<tr>";
-    for ($j = 1; $j <= 8; $j++) {
-        $total = $j+$i;
-        if ($total % 2 == 0) {
-            $table .= "<td width='30px' height='30px' bgcolor='black'></td>";
-        } else {
-            $table .= "<td width='30px' height='30px' bgcolor='white'></td>";
-        }
-//        if ($j % 2 == 0) {
-//            $table .= "<td width='30px' height='30px' bgcolor='black'></td>";
-//        } else {
-//            $table .= "<td width='30px' height='30px' bgcolor='white'></td>";
-//        }
-
+    for ($j = 1; $j <= 9; $j++) {
+        $table .= "<td width='30px' height='30px' bgcolor=$color[$flag]></td>";
+        $flag = !$flag;
     }
     $table .= "</tr>";
 }

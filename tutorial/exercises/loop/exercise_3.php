@@ -16,16 +16,18 @@
  * Date: 12/6/2016
  * Time: 17:13
  */
-
-for ($i = 0; $i <= 5; $i++) {
+$count = 1;
+for ($i = 0; $i <= 4; $i++) {
 //    $x = 0;
 //    while ($x <= $i) {
 //        echo "*";
 //        $x++;
 //    }
-    for ($j = 0; $j <= 5; $j++) {
+    for ($j = 0; $j <= 4; $j++) {
         if ($j <= $i) {
-            echo "*";
+            //echo "*";
+            echo $count;
+            $count++;
         }
     }
     echo "<br>";
